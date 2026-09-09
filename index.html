@@ -5,13 +5,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prajwal Pidekar | Full Stack Developer</title>
     <meta name="description" content="Full Stack Developer with 10+ months of production experience building end-to-end systems with React, Django, and AWS." />
+    <meta name="robots" content="noindex, noarchive" />
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Custom CSS Styles -->
     <link rel="stylesheet" href="style.css" />
+    <style>
+        html.resume-mode,
+        html.resume-mode body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            overflow: hidden;
+            user-select: none;
+            -webkit-user-select: none;
+            color-scheme: dark;
+            background: #0d1117;
+        }
+
+        .resume-mode #root {
+            display: none;
+        }
+
+        .resume-viewer {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+            color: #f5f5f5;
+        }
+
+        .resume-header {
+            min-height: 56px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            padding: 12px 20px;
+            background: #111827;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .resume-title {
+            margin: 0;
+            font-size: 15px;
+            font-weight: 700;
+        }
+
+        .resume-back-link {
+            color: #22d3ee;
+            font-size: 13px;
+            text-decoration: none;
+        }
+
+        .resume-back-link:hover {
+            color: #f5f5f5;
+        }
+
+        .resume-frame {
+            width: 100%;
+            flex: 1;
+            border: 0;
+            background: #525659;
+        }
+    </style>
+    <script>
+        if (new URLSearchParams(window.location.search).get('resume') === '1') {
+            document.documentElement.classList.add('resume-mode');
+        }
+    </script>
 </head>
-<body>
+<body oncontextmenu="return false;">
+    <main class="resume-viewer" aria-label="Resume viewer" hidden oncontextmenu="return false;">
+        <header class="resume-header">
+            <h1 class="resume-title">Prajwal Pidekar | Resume</h1>
+            <a class="resume-back-link" href="index.html">Back to portfolio</a>
+        </header>
+        <iframe
+            class="resume-frame"
+            src="Pidekar_Resume.pdf#toolbar=0&navpanes=0&scrollbar=0"
+            title="Prajwal Pidekar resume"
+            loading="eager"
+            oncontextmenu="return false;"
+        ></iframe>
+    </main>
     <div id="root"></div>
+
+    <script>
+        const isResumeView = document.documentElement.classList.contains('resume-mode');
+        const resumeViewer = document.querySelector('.resume-viewer');
+
+        if (isResumeView) {
+            resumeViewer.hidden = false;
+            document.addEventListener('contextmenu', (event) => event.preventDefault());
+            document.addEventListener('selectstart', (event) => event.preventDefault());
+            document.addEventListener('dragstart', (event) => event.preventDefault());
+            document.addEventListener('copy', (event) => event.preventDefault());
+            document.addEventListener('cut', (event) => event.preventDefault());
+            document.addEventListener('keydown', (event) => {
+                const key = event.key.toLowerCase();
+                const blocked = (event.ctrlKey || event.metaKey) && ['c', 'p', 's', 'u'].includes(key);
+                if (blocked || key === 'printscreen') {
+                    event.preventDefault();
+                    event.stopPropagation();
+                }
+            });
+        }
+    </script>
 
     <!-- External Libraries (React 18 & Babel) -->
     <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>

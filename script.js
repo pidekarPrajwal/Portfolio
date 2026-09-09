@@ -111,7 +111,7 @@ const DATA = {
     email: 'pidekar.prajwal@outlook.com',
     github: 'https://github.com/pidekarPrajwal',
     linkedin: 'https://linkedin.com/in/prajwal-pidekar',
-    resumeUrl: 'Pidekar_Resume.pdf',
+    resumeUrl: 'index.html?resume=1',
 
     skills: {
         languages: ['JavaScript (ES6+)', 'Python', 'Java', 'C', 'C++', 'TypeScript (Familiar)'],
