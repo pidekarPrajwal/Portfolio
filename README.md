@@ -9,7 +9,7 @@ A sleek, responsive, and modern personal developer portfolio built for **Prajwal
 ## 👤 Author
 
 **Prajwal Pidekar**  
-*Full Stack Developer*  
+*Full Stack Developer* / *Mern Stack Developer* / 
 - **Email**: [pidekar.prajwal@outlook.com](mailto:pidekar.prajwal@outlook.com)
 - **GitHub**: [github.com/pidekarPrajwal](https://github.com/pidekarPrajwal)
 - **LinkedIn**: [linkedin.com/in/prajwal-pidekar](https://linkedin.com/in/prajwal-pidekar)
