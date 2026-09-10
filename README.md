@@ -10,7 +10,7 @@ A sleek, responsive, and modern personal developer portfolio built for **Prajwal
 
 **Prajwal Pidekar**  
 *Full Stack Developer* / *Mern Stack Developer* / 
-- **Email**: [pidekar.prajwal@outlook.com](mailto:pidekar.prajwal@outlook.com)
+- **Email**: [prajwal.pidekar@outlook.com](mailto:pidekar.prajwal@outlook.com)
 - **GitHub**: [github.com/pidekarPrajwal](https://github.com/pidekarPrajwal)
 - **LinkedIn**: [linkedin.com/in/prajwal-pidekar](https://linkedin.com/in/prajwal-pidekar)
 - **Location**: Amravati, Maharashtra, India
