@@ -12,3 +12,5 @@ A sleek, responsive, and modern personal developer portfolio built for **Prajwal
 - **GitHub**: [github.com/pidekarPrajwal](https://github.com/pidekarPrajwal)
 - **LinkedIn**: [linkedin.com/in/prajwal-pidekar](https://linkedin.com/in/prajwal-pidekar)
 - **Location**: Amravati, Maharashtra, India
+
+- ---
