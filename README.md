@@ -1,4 +1,4 @@
-# Portfolio
+# *Portfolio*
 
 A sleek, responsive, and modern personal developer portfolio built for **Prajwal Pidekar**, a Full Stack Developer with 10+ months of production experience building end-to-end systems with React, Django, and AWS.
 
