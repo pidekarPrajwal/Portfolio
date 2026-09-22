@@ -4,7 +4,7 @@ A sleek, responsive, and modern personal developer portfolio built for **Prajwal
 
 ---
 
-## 👤 Author   - *<b>Prajwal</b>*
+## 👤 Author   - *<b><u>Prajwal</u></b>*
 
 **Prajwal Pidekar**  
 *Full Stack Developer* / *Mern Stack Developer* / 
