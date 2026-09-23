@@ -1,10 +1,11 @@
+
+## 👤 Author   - *<b><u>Prajwal</u></b>*
 # *Portfolio* 
 
 A sleek, responsive, and modern personal developer portfolio built for **Prajwal Pidekar**, a Full Stack Developer with **11+ months** of production experience building end-to-end systems with React, Django, and AWS.
 
 ---
 
-## 👤 Author   - *<b><u>Prajwal</u></b>*
 
 **Prajwal Pidekar**  
 *Full Stack Developer* / *Mern Stack Developer* / 
