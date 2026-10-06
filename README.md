@@ -1,6 +1,6 @@
 ----------------------------------------------------------------
 # 👤 **Portfolio**   - *<b><u>Prajwal Pidekar </u></b>*
-
+--------------------------------------------------------------
 A sleek, responsive, and modern personal developer portfolio for Prajwal Pidekar, a Full Stack Developer with 11+ months of hands-on production experience, specializing in building scalable, end-to-end web applications using React, Django, and AWS.
 
 ------------------------------------------------------------------
